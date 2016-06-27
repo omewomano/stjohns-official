@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>st johns ADMIN PAGE</title>
+    <link href="css/semantic.css" rel="stylesheet">
+    <link href="css/semantic.min.css" rel="stylesheet">
+    <link href="css/mystyle.css" rel="stylesheet">
+        <link href="css/icon.min.css" rel="stylesheet">
+    <script src="scripts/package.js"></script>
+    <script src="scripts/semantic.min.js"></script>
+    <script src="scripts/semantic.min.js"></script>
+</head>
+
+<body>
+<div class="ui four column doubling stackable grid container">
+    <div class="ui two column doubling stackable grid container ">
+        <div class="ui grid">
+            <div class="doubling two column row centered">
+                <div class="column"><img class="ui small image fluid centered" src="assets/badge.png"></div>
+                <div class="column ten wide center aligned"><h1 class="left thin-text">ST JOHNS SECONDARY SCHOOl, AMOKE</h1></div>
+            </div>
+        </div>
+    </div>
+    <!--end of header-->
+    <!--nav bar begins-->
+    <div class="ui five item menu stackable inverted olive">
+        <a class="item" href="index.html">HOME</a>
+        <a class="item active" href="admin.html"> ADMINISTRATION</a>
+        <a class="item" href="staff.html">STAFFS</a>
+        <a class="item" href="gallery.html"> GALLERY</a>
+        <a class="item" href="contact.html"> CONTACT US</a>
+    </div>
+    <!-- body begins-->
+    <div class="two column row body-holder">
+        <div class="twelve wide column top attached button centered">
+                
+                
+                
+                <div class="ui segment main-body">
+                    <h3 class="ui intro thin-text">ADMINISTRATION   
+                        <br> This School Is Administered / Managed In The Following Way</h3>
+                    <p class="justified">the school is been headed by a Principal whom is in charge of the running of the School, assisted by the
+                        Dean and the Deputy Dean, these are followed by Head of Sections (Head Of Departments) then the Tutors/Teachers, non teaching staffs,
+                        students representatives.
+                        <br> for a list of our staffs and the current form Masters and Assistants of the various classes click <a href="staff.html">here</a>
+                        <br> the chart below shows the organogram of the schools management
+                    </p>
+                    <h3 class="ui intro thin-text">SCHOOLS ADMINISTRATIVE ORGANOGRAM</h3>
+                    <div class="ui fluid image">
+                        <img alt="managements organogram" src="assets/organogram.png">
+                    </div>
+                </div>
+        </div>
+        <div class="four wide column left floated top attached button"><div class="ui segment">
+                    <h3 class="ui intro underlined thin-text">NEWS <i class="announcement icon"></i></h3>
+                    <div id="omano" class="ui segment">
+                        
+                    </div>
+                </div></div>
+    </div>
+   <!-- footer begins-->
+    <div class="sixteen wide column foota container olive rounded">
+            <div class="centered">
+                <p class="centered">Designed by 2015/2016 Corpers
+                <a href="www.flexy-it-solutions.com" title="www.flexy-it-solutions.com" style="color: grey">BN/15B/0706</a>,
+                    BN/15B/0704, BN/15A/1326
+                </p>
+            </div>
+            <div>
+                <p class="centered">copyright 2016.</p>
+            </div>
+    </div>
+</div>
+<script src="scripts/jquery-2.1.4.min.js"></script>
+<script language='javascript'>
+    $(document).ready
+    $('#omano').load('news.txt');
+</script>
+
+</body>
+</html>

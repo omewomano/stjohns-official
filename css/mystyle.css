@@ -1,0 +1,45 @@
+.heada{border: solid 2px red;}
+.headar{border: solid 2px green;}
+.headars{border: solid 2px black;}
+.inhead{border: solid 2px green}
+.selectable{cursor: pointer}
+.border-top{padding-top: 45%}
+.body-holder{
+    height: inherit;
+}
+
+.foota{
+    height: inherit;
+    border-radius: 7px;
+}
+.shadow{
+    -moz-box-shadow: 4px 4px 4px #888888; /* Firefox 3.6 and earlier */
+    -webkit-box-shadow: 4px 4px 4px #888888; /* Safari and Chrome */
+    box-shadow: 4px 4px 2px #888888;
+}
+
+.hiden{display: none}
+
+.hovered-link:hover{
+    color: olive;
+    font-weight: bold;
+}
+.intro{color: #b5cc18;
+    text-align: center;
+
+}
+.underlined{border-bottom: dashed 2px #b5cc18}
+.olive-border{border:#b5cc18}
+
+.justified{text-align: justify}
+.thin-text{font-weight: 100}
+.centered{text-align: center;}
+.omano{ width: 100%;
+    height: 100%
+}
+.indented{
+    text-indent: 2em
+    
+}
+
+

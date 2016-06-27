@@ -1,0 +1,8 @@
+<marquee id="omano" direction="up" speed="25" class="ui olive centered">
+ all news emanating form the
+ <br>school will be in this section.
+ <br>floating from down to top.
+ <br>the following is an example
+ <br>there will be general labour by 2pm
+ followed by Prep till 5pm  
+</marquee>
