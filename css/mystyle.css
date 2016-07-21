@@ -41,5 +41,8 @@
     text-indent: 2em
     
 }
+@media screen and (max-device-width: 800px) {
+    .NoMobi{display: none;}
+}
 
 
